@@ -11,6 +11,7 @@
 // CUSTOM
 // //////////////////////
 // ICONS
+// $icons-sprite-dimensions: true;
 // @import "../../assets/img/icons/*.png";
 // @include all-icons-sprites;
 
@@ -22,11 +23,15 @@ $color_darkred  : #4a3232;
 // //////////////////////
 // MODULE STYLES
 // //////////////////////
+@import 'modules/plugins';
 @import 'modules/styles';
 @import 'modules/header';
 @import 'modules/nav';
 @import 'modules/content';
 @import 'modules/footer';
+@import 'modules/forms';
+
+@import 'modules/responsive';
 // //////////////////////
 // END CUSTOM
 // //////////////////////

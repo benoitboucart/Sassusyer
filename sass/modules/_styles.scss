@@ -1,0 +1,14 @@
+body{
+	@extend %fonttext;
+	line-height: 1.65em;
+}
+h1,h2,h3,h4,h5,h6{
+	@extend %fontmain;
+	line-height: 1em;
+}
+
+a, a:visited{
+	color: #d76968; text-decoration: none; border-bottom: 1px solid transparent;
+	@include transition(all 220ms ease-in);
+}
+a:hover{color: #000; border-bottom: 1px solid #d76968;}

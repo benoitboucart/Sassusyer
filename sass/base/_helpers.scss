@@ -32,6 +32,21 @@
 .media .img img{display:block;}
 .media .imgExt{float:right; margin-left: 1.1em;}
 
+i{display: inline-block;}
+
+// Convert PX value to EM value
+@function pem($pxval, $base: 16) {
+  @if (unitless($pxval)) {
+    $pxval: $pxval * 1px;
+  }
+
+  @if (unitless($base)) {
+    $base: $base * 1px;
+  }
+
+  @return $pxval / $base * 1em;
+}
+
 
 /* ==========================================================================
    Boiler template

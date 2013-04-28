@@ -1,0 +1,42 @@
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+@media handheld, only screen and (max-width: 767px) {
+
+    .max_width p, .max_width h1, .max_width h2, .max_width h3, .max_width h4, .max_width h5, .max_width h6{
+      max-width: 100%;
+    }
+
+    .form-horizontal .control-label {font-weight: 700;}
+    .form-horizontal .control-group > label {float: none;width: auto;padding-top: 0;text-align: left;}
+    .form-horizontal .controls {margin-left: 0;}
+    .form-horizontal .control-list {padding-top: 0;}
+    .form-horizontal .form-actions {padding-right: 10px;padding-left: 10px;}
+
+    #top {text-align: center;}
+    #logo {float: none;}
+    #top .nav_container {float: none;}
+    #top nav a, #top nav a:visited, #top nav li { float: none; padding-top: 4px; 
+      display: -moz-inline-stack;display: inline-block;vertical-align: top;zoom: 1;*display: inline;
+    }
+    
+    /* ====== media ====== */
+    .media {margin: 0;}
+    .media, .bd {overflow:visible;}
+    .media .img {float: none; margin: 0;}
+    .media .imgExt{float: none; margin: 0;}
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*  .logo {
+        background: url(logo2x.jpg) no-repeat;
+        background-size: 212px 303px;
+    }*/
+
+}
